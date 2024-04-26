@@ -1,0 +1,1 @@
+import{t as r}from"./index-sqpuyQLL.js";import"./index-CsdIBAqE.js";const t={parameters:{backgrounds:{default:"dark"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}},docs:{theme:r.dark}}};export{t as default};
