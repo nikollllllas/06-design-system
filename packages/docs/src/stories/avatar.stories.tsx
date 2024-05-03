@@ -8,20 +8,22 @@ export default {
     src: 'https://github.com/nikollllllas.png',
     alt: 'Nikollas Ohta',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
 
-export const CustomTag: StoryObj<AvatarProps> = {
+export const WithFallback: StoryObj<AvatarProps> = {
   args: {
     src: undefined,
   },
   parameters: {
-    docs: {
-      description: {
-        story:
-          'Por padrão o Avatar sempre será um `h2`, mas podemos alterar isso com a propriedade `as`.',
-      },
-    },
+    docs: {},
   },
 }
