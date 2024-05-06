@@ -1,7 +1,8 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@ng-studies-ignite-ui/docs",
   "license": "MIT",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
@@ -9,10 +10,10 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@ng-studies-ignite-ui/eslint-config": "*",
+    "@ng-studies-ignite-ui/react": "*",
+    "@ng-studies-ignite-ui/tokens": "*",
+    "@ng-studies-ignite-ui/ts-config": "*",
     "@phosphor-icons/react": "^2.1.5",
     "@storybook/addon-a11y": "^8.0.9",
     "polished": "^4.3.1",

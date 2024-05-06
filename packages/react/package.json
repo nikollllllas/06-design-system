@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/react",
-  "version": "0.0.1",
+  "name": "@ng-studies-ignite-ui/react",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -13,9 +13,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@ng-studies-ignite-ui/eslint-config": "*",
+    "@ng-studies-ignite-ui/tokens": "*",
+    "@ng-studies-ignite-ui/ts-config": "*",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
     "react": "^18.2.0",
